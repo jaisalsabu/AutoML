@@ -22,7 +22,7 @@ height_train, height_test, weight_train, weight_test = train_test_split(height, 
                                                                         random_state=0)
 print("Training dataset contains {0} records".format(len(height_train)))
 print("Test dataset contains {0} records".format(len(height_test)))
-
+#commentforchange
 # Step 2 :: Training model on training set
 print("Fitting linear regression model to dataset")
 from sklearn.linear_model import LinearRegression
