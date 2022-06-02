@@ -13,7 +13,7 @@ def main():
     return 'Container is up & running'
 
 
-@app.route('/Predict')
+@app.route('/SimpleLinearRegression/Predict')
 def predict():
     height = request.args.get('height')
     _input = np.array([height], dtype=float).reshape(-1, 1)
